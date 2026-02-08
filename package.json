@@ -1,0 +1,24 @@
+{
+   "name": "McpPlayground",
+   "version": "0.0.1",
+   "description": "App to understand/learn the Modell Context Protocol (MCP).",
+   "private": true,
+   "author": {
+      "name": "Thomas Ederer",
+      "email": "thomas@orchideenvermehrung.at"
+   },
+   "licenses": [
+      {
+         "type": "MIT"
+      }
+   ],
+   "dependencies": {
+      "promise": "8.x"
+   },
+   "engines": {
+      "node": ">=24.13.0"
+   },
+   "scripts": {
+      "start": "node Main.js"
+   }
+}
