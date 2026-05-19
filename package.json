@@ -15,10 +15,13 @@
    "dependencies": {
       "promise": "8.x"
    },
+   "devDependencies": {
+      "jshint": "2.x"
+   },
    "engines": {
       "node": ">=24.13.0"
    },
    "scripts": {
-      "start": "node Main.js"
+      "start": "node ./client/Main.js"
    }
 }

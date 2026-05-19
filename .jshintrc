@@ -1,0 +1,11 @@
+{
+    "esversion": 11,
+    "curly": true,
+    "eqeqeq": true,
+    "nocomma": true,
+    "nonew": true,
+    "latedef": true,
+    "nonbsp": true,
+    "shadow": true,
+    "unused": true
+}

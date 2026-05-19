@@ -1,5 +1,3 @@
-/* global assertNamespace:true, myNamespace:true, global, window */
-
 var recursiveAssertObject = function recursiveAssertObject(parentObject, objects) {
    
    if (parentObject[objects[0]] === undefined) {

@@ -3,8 +3,9 @@
 scriptDir=$(cd $(dirname $0) && pwd)
 cd $scriptDir
 
-node --version > /dev/null 2&>1
+which node > /dev/null
 exitCode=$?
+
 if [ $exitCode -ne 0 ]; then
    echo "Please install Node.js before executing this script."
    exit 1
@@ -20,4 +21,4 @@ if [ ! -d ./node_modules ]; then
     fi
 fi
 
-npm start
+npm start $@
