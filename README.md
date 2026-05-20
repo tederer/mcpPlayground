@@ -46,6 +46,10 @@ The MCP Client supports the following optional environment variable to change th
 
 The Microsoft Learn MCP server (https://learn.microsoft.com/api/mcp) is a good candidate for learning because it does not require an API key. 
 
+## Performing a quick connectivity test using sendInitToMcpServer.sh
+
+The script `sendInitToMcpServer.sh` can be used to check if an MCP server responds when requests are sent to it. It sends an "initialise" request to the MCP server and prints the response to STDOUT. It uses http://localhost:9000/mcp as the server URL by default, but this can be overwritten by setting the MCP_SERVER_URL environment variable.
+
 ## References
 
 * [JSON-RPC](https://www.jsonrpc.org)
