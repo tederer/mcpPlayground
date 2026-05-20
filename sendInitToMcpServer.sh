@@ -12,7 +12,7 @@ if [ "${MCP_SERVER_URL}x" != "x" ]; then
    mcpServerUrl=$MCP_SERVER_URL
 fi
 
-echo "Sending \"initialize\" request to $mcpServerUrl ..."
+echo -e "Sending \"initialize\" request to $mcpServerUrl ...\n"
 
 curl -X POST \
     --dump-header - \
